@@ -107,13 +107,11 @@ p{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
-
 }
 .iconContainer{
     padding: 10%;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .iconTile{
@@ -203,15 +201,18 @@ p{
 }
 
 .getStartedContainer{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10%;
+    overflow: hidden;
+    background-color: #0c1524;
+    
 }
 
 .getStartedFormCard{
-    
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -231,13 +232,13 @@ p{
     align-items: center;
 }
 
-.getStartedForm input[type=text]{
+.formCard input[type=text]{
     width: 90%;
     padding: 15px;
     margin-bottom: 5%;
     border-radius: 25px;
 }
-.getStartedForm input[type=button]{
+.formCard input[type=button]{
     text-decoration: none;
     background-color: #4cc1d3;
     color: #ffffff;
@@ -251,8 +252,58 @@ p{
     margin-bottom: 10%;
 }
 
+.hardBackground{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    width: 100%;
+    height: 500px;
+    background-color: #0c1524;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundDark{
+    width: 2000px;
+    height: 300px;
+    background-color: #181e2a;
+    position: relative;
+    top: -150px;
+}
+
+.formCard{
+    width: 70%;
+    padding: 5%;
+    background-color: #1b2330;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px black;
+}
+
+.formCard h1{
+    text-align: center;
+}
+
+.formCard p{
+    text-align: center;
+}
+
+
+
+
+/*FOOTER FOOTER FOOTER*/
 .footer{
-    padding: 60% 10% 10% 10%;
+    padding: 20% 10% 10% 10%;
     background-color: #0c1524;
 }
 
@@ -363,6 +414,18 @@ ion-icon{
 
 
 @media screen and (min-width: 600px){
+
+    .introImage{
+        padding: 40% 10% 10% 10%;
+    }
+
+    .titleContainer{
+        top: 100px;
+    }
+
+    .iconContainer{
+        position: inherit;
+    }
 
 }
 
