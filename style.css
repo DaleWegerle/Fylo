@@ -416,17 +416,11 @@ ion-icon{
 @media screen and (min-width: 600px){
 
     .introImage{
-        padding: 40% 10% 10% 10%;
+        padding: 20% 10% 10% 10%;
     }
-
-    .titleContainer{
-        top: 100px;
+    .headerImage{
+        height: 700px;
     }
-
-    .iconContainer{
-        position: inherit;
-    }
-
 }
 
 @media screen and (min-width: 768px){
